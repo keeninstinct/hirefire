@@ -9,7 +9,7 @@ module HireFire
     # @param [String] string prints a string to the console (green color)
     # @return [nil]
     def self.message(string)
-      puts loggify(string, :green)
+      puts loggify(string)
     end
 
     ##
@@ -18,7 +18,7 @@ module HireFire
     # @param [String] string prints a string to the console (red color)
     # @return [nil]
     def self.error(string)
-      puts loggify(string, :red)
+      puts loggify(string)
     end
 
     ##
@@ -27,7 +27,7 @@ module HireFire
     # @param [String] string prints a string to the console (yellow color)
     # @return [nil]
     def self.warn(string)
-      puts loggify(string, :yellow)
+      puts loggify(string)
     end
 
     ##
